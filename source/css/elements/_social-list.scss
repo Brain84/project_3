@@ -1,0 +1,13 @@
+.social-list-footer {
+	position: absolute;
+	bottom: 10%;
+	right: 17%;
+	li {
+		padding: 0 10px;
+		display: inline-block;
+	}
+	i {
+		color: $color-white;
+		font-size: $font-social-list;
+	}
+}

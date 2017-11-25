@@ -1,0 +1,54 @@
+.page-footer {
+	height: 80vh;
+	background-color: $color-bgc-footer;
+	position: relative;
+	h6 {
+		margin: 0;
+		color: $color-white;
+		font-family: 'Montserrat', sans-serif;
+		font-size: $font-medium;
+		font-weight: 400;
+		color: $color-title-list-footer;
+		text-transform: uppercase;
+		padding-bottom: 15px;
+	}
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		font-family: 'Montserrat', sans-serif;
+		color: $color-white;
+		font-size: $font-xm;
+	}
+	li {
+		padding: 10px 0;
+	}
+
+	a {
+		text-decoration: none;
+		color: $color-white;
+	}
+}
+.footerCol {
+	position: absolute;
+	&:nth-child(1) {
+		width: 20rem;
+		top: 15%;
+		left: 20%;
+	}
+	&:nth-child(2) {
+		width: 20rem;
+		top: 15%;
+		left: 50%;
+	}
+}
+.footer-copyright {
+	width: 84%;
+	margin: 0;
+	color: $color-white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: $font-regular;
+	letter-spacing: 1px;
+	position: absolute;
+	bottom: 10%;
+}

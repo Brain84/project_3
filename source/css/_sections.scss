@@ -1,0 +1,210 @@
+.section--hero {
+  height: 100vh;
+  width: 100%;
+  background-image: url("../images/art1.png");
+  background-repeat: no-repeat;
+  @include background-size(cover);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+	h1 {
+		position: absolute;
+		margin: 0;
+		height: 18rem;
+		width: 50rem;
+		color: $color-white;
+		text-transform: uppercase;
+		font-family: 'Montserrat', sans-serif;
+		font-size: $font-title-art;
+		text-align: center;
+		line-height: 0.9;
+		top: 34%;
+		left: calc(50% - 25rem);
+		span {
+			&:after {
+				content: '\A';
+				white-space: pre;
+			}
+		}
+	}
+	h3 {
+		color: $color-white;
+		font-family: 'Montserrat', sans-serif;
+		font-size: $font-medium;
+		letter-spacing: 1px;
+		position: absolute;
+		bottom: 10%;
+		left: 20%;
+	}
+	p {
+		margin: 0;
+		color: $color-white;
+		font-family: 'Montserrat', sans-serif;
+		font-size: $font-regular;
+		letter-spacing: 1px;
+		position: absolute;
+		bottom: 5%;
+		left: 20%;
+		width: 40%;
+	}
+}
+.icon-title1 {
+	width: 11rem;
+	height: 11rem;
+	border: 6px solid $color-white;
+	color: $color-white;
+	font-family: 'Dancing Script', cursive;
+	font-size: $font-big;
+	position: absolute;
+	top: 16%;
+	left: calc(50% - 5.5rem);
+	text-align: center;
+	line-height: 9rem;
+	@include border-radius(50%);
+}
+.author1 {
+	color: $color-white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: $font-regular;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	width: 14rem;
+	position: absolute;
+	left: -40%;
+	bottom: 25%;
+	z-index: 2;
+	@include transform (rotate(-90deg));
+}
+.section--gallery {
+	height: 90vh;
+	background-color: $color-bgc-section;
+	h3 {
+		margin: 0;
+		color: $color-white;
+		font-family: 'Montserrat', sans-serif;
+		text-transform: uppercase;
+		font-size: $font-title-gallery;
+		letter-spacing: 1px;
+		font-weight: 400;
+		padding: 40px 0;
+	}
+}
+.section--passion {
+	height: 100vh;
+	position: relative;
+	background-image: url("../images/art2.png");
+	background-repeat: no-repeat;
+	@include background-size(cover);
+	h2 {
+		position: absolute;
+		margin: 0;
+		height: 18rem;
+		width: 50rem;
+		color: $color-white;
+		text-transform: uppercase;
+		font-family: 'Montserrat', sans-serif;
+		font-size: $font-title-art;
+		text-align: center;
+		line-height: 0.9;
+		top: 32%;
+		left: calc(50% - 25rem);
+		span {
+			&:after {
+				content: '\A';
+				white-space: pre;
+			}
+		}
+	}
+	h3 {
+		color: $color-white;
+		font-family: 'Montserrat', sans-serif;
+		font-size: $font-medium;
+		letter-spacing: 1px;
+		position: absolute;
+		bottom: 20%;
+		left: 20%;
+	}
+	p {
+		margin: 0;
+		color: $color-white;
+		font-family: 'Montserrat', sans-serif;
+		font-size: $font-regular;
+		letter-spacing: 1px;
+		position: absolute;
+		bottom: 15%;
+		left: 20%;
+		width: 40%;
+	}
+}
+.icon-title2 {
+	width: 11rem;
+	height: 11rem;
+	border: 6px solid $color-white;
+	color: $color-white;
+	font-family: 'Dancing Script', cursive;
+	font-size: $font-big;
+	position: absolute;
+	top: 15%;
+	left: calc(50% - 5.5rem);
+	text-align: center;
+	line-height: 9rem;
+	@include border-radius(50%);
+}
+.author2 {
+	color: $color-white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: $font-regular;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	position: absolute;
+	left: -2%;
+	bottom: 25%;
+	@include transform (rotate(-90deg));
+}
+.section--articles {
+	height: 200vh;
+	background-color: $color-bgc-section;
+	h3 {
+		margin: 0;
+		color: $color-white;
+		font-family: 'Montserrat', sans-serif;
+		text-transform: uppercase;
+		font-size: $font-title-gallery;
+		letter-spacing: 1px;
+		font-weight: 400;
+		padding: 70px 0 50px 0;
+	}
+}
+.section--about {
+	height: 100vh;
+	position: relative;
+	background-image: url("../images/art3.png");
+	background-repeat: no-repeat;
+	@include background-size(cover);
+	h3 {
+		margin: 0;
+		position: absolute;
+		color: $color-white;
+		font-family: 'Montserrat', sans-serif;
+		font-size: $font-big;
+		font-weight: 400;
+		letter-spacing: 1px;
+		top: 30%;
+		right: 20%;
+	}
+	p {
+		margin: 0;
+		width: 40%;
+		color: $color-white;
+		font-family: 'Montserrat', sans-serif;
+		font-size: $font-xm;
+		font-weight: 400;
+		letter-spacing: 1px;
+		line-height: 1.5;
+		text-align: justify;
+		position: absolute;
+		top: 45%;
+		right: 20%;
+	}
+}
