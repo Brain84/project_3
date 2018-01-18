@@ -33,17 +33,11 @@
 	position: relative;
 	img {
 		position: relative;
-		-webkit-transition: all 200ms ease-in;
-	    -ms-transition: all 200ms ease-in;
-	    -moz-transition: all 200ms ease-in;
-	    transition: all 200ms ease-in;
-	    &:hover {
-		    -webkit-transform: scale(1.5);
-		    -ms-transform: scale(1.5);
-		    -moz-transform: scale(1.5);
-		    @include transform (scale(1.5));
-		    z-index: 200;
-	    }
+		transition: all 200ms ease-in;
+		&:hover {
+			transform: scale(1.5);
+			z-index: 200;
+		}
 	}
 }
 .photo1-comments {

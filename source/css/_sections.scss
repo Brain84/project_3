@@ -3,7 +3,7 @@
   width: 100%;
   background-image: url("../images/art1.png");
   background-repeat: no-repeat;
-  @include background-size(cover);
+  background-size: cover;
   position: relative;
   display: flex;
   justify-content: center;
@@ -61,7 +61,7 @@
 	left: calc(50% - 5.5rem);
 	text-align: center;
 	line-height: 9rem;
-	@include border-radius(50%);
+	border-radius: 50%;
 }
 .author1 {
 	color: $color-white;
@@ -74,7 +74,7 @@
 	left: -40%;
 	bottom: 25%;
 	z-index: 2;
-	@include transform (rotate(-90deg));
+	transform: rotate(-90deg);
 }
 .section--gallery {
 	height: 90vh;
@@ -95,7 +95,7 @@
 	position: relative;
 	background-image: url("../images/art2.png");
 	background-repeat: no-repeat;
-	@include background-size(cover);
+	background-size: cover;
 	h2 {
 		position: absolute;
 		margin: 0;
@@ -149,7 +149,7 @@
 	left: calc(50% - 5.5rem);
 	text-align: center;
 	line-height: 9rem;
-	@include border-radius(50%);
+	border-radius: 50%;
 }
 .author2 {
 	color: $color-white;
@@ -160,7 +160,7 @@
 	position: absolute;
 	left: -2%;
 	bottom: 25%;
-	@include transform (rotate(-90deg));
+	transform: rotate(-90deg);
 }
 .section--articles {
 	height: 200vh;
@@ -181,7 +181,7 @@
 	position: relative;
 	background-image: url("../images/art3.png");
 	background-repeat: no-repeat;
-	@include background-size(cover);
+	background-size: cover;
 	h3 {
 		margin: 0;
 		position: absolute;

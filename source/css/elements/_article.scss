@@ -69,7 +69,7 @@
 		border-right: 20px solid transparent;
 		border-bottom: 20px solid $color-bgc-section;
 		display: block;
-		@include transform (rotate(90deg));
+		transform: rotate(90deg);
 		position: absolute;
 		top: -5%;
 		left: -5%;
